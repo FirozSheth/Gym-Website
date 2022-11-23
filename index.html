@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <title>Firoz Fitness</title>
+    <style>
+
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            /* height: 2000px; */
+
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .left img {
+            display: block;
+            margin: auto;
+            width: 44px;
+            filter: invert(100%);
+            /* image scroll-behavior: border: ; */
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 46%;
+            margin: 9px auto;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+        
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+            padding: 0px 21px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px auto;
+        }
+
+        .navbar li a:hover
+         {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .btn {
+            margin: 3px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            /* border: 2px solid grey; */
+            border-radius: 10px;
+            font-size: 17px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: rgb(167, 129, 129);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 62px 52px;
+            padding: 54px 6px;
+            width: 33%;
+            border-radius: 29px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 253px;
+            padding: 6px;
+            margin: 13px auto;
+            border: 2px solid black;
+            border-radius: 19px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 15px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 30%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym.jpg" alt="">
+            <div>Firoz Fitness</div>
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <!-- <li><a href="#">Support</a></li> -->
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">
+                Call us now
+            </button><button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the gym of now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your name">
+            </div>
+        </form>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Enter your age">
+        </div>
+        </form>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Enter your Gender">
+        </div>
+        </form>
+        <div class="form-group">
+            <input type="text" name="" id="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
